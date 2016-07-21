@@ -1,0 +1,27 @@
+{
+  "name": "todoapp",
+  "version": "1.0.0",
+  "description": "manage tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhruv2204/todo-angular2.git"
+  },
+  "author": "dhruv2204",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhruv2204/todo-angular2/issues"
+  },
+  "homepage": "https://github.com/dhruv2204/todo-angular2#readme",
+  "devDependencies": {
+    "live-server": "^1.0.0",
+    "typescript": "^1.8.10"
+  },
+  "scripts": {
+    "tsc": "tsc -p src -w",
+    "start": "live-server --open=src"
+  }
+}
